@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository the GIt creates a new empty repository. You need to do it to create a new repository where you can save your commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area separates the files you commit from those you don't want to commit and let you choose whent to commit saving the file before it was changed while working directory is just all the files in the current directory and repository is just the history of commits made. It is a great instrument to track what do you commiting and what you want to ignore.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use the function get diff --staged you can see if  really have just one logical chance since the last commit.
