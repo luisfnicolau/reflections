@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If you make a change that result in some actions that was not planned, you can compare with a older working version of the file to see were you added a bug in the file. The bug will be in the lines you added or removed, in the differences between the two files.
+
+How could having easy acess to the entire history of a file make you more efficient programmer in the long term?
+
+You can compare steps of your work to see the changes and easily solve new bugs that appears after modifing the file several times.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having version automatically saved, like Google docs does?
+
+Pros: 
+You can aways have a smart saves, with checkpoints only when necessary.
+Don't create million of files without purpose.
+Possibility of mark the changes in every commit.
+The checkpoint don't break the logical in the middle.
+
+Cons:
+You need to always remember to save.
+Need to stop the work to
+ make the commit.
+
+ Why do you think some versions control systems, like Git, allow saving mutiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ Because a change in one file can change the behavior of the others files and, recording multiples files at once, you have less commits to organize.
+
+ How can you use the commands git log and git diff to view the history of files?
+
+ I can use get log to see the all the history of changes and who and when the files was modified and see a litlle comment explaning what changed. Whith git diff I can see the differences between two different time files (commits).
+
+ How might using version control make you more confident to make changes that could break something?
+
+ Whith version control I know that I could make any changes without fear of breaking something because I can always go back to when everything was right.
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+
+ I want to see the commits interface in one of my files.
