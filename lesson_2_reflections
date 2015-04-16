@@ -1,11 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize a repository the GIt creates a new empty repository. You need to do it to create a new repository where you can save your commits.
+	When you initialize a repository the GIt creates a new empty repository. You need to do it to create a new repository where you can save your commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area separates the files you commit from those you don't want to commit and let you choose whent to commit saving the file before it was changed while working directory is just all the files in the current directory and repository is just the history of commits made. It is a great instrument to track what do you commiting and what you want to ignore.
+	Staging area separates the files you commit from those you don't want to commit and let you choose whent to commit saving the file before it was changed while working directory is just all the files in the current directory and repository is just the history of commits made. It is a great instrument to track what do you commiting and what you want to ignore.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-Use the function get diff --staged you can see if  really have just one logical chance since the last commit.
+	Use the function get diff --staged you can see if  really have just one logical chance since the last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you want to add some features but you want to keep a working copy of your file. Branches can divide the version with the incomplete feature to be added and the completed version without the feature.
+
+How do the diagrams help you visualize the branch structure?
+
+	Help me to track where the branches are what they have.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	You have the addeds and removed lines of the two branches in the main file togheter. Because the history of the two branches continue separate, every commit stay with the same parents as before the merge.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	The pros of automatic merging is that you don't have to worry to automatic merge the files.
+	The cons of automatic merging is that it can cause conflicts between two branches that only a human can interpretate to find the best solution so in these cases, it don't work.
